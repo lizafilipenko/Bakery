@@ -1,0 +1,57 @@
+/*root - змінна (для кольору)*/
+:root {
+    --color-brand-light: #819B57;
+    --color-brand-dark: #465929;
+    --color-primary-light: #FAF4EA;
+    --color-primary-dark: #31261A;
+}
+
+body {
+    color: var(--color-primary-dark);
+}
+ul {
+    list-style-type: none;
+}
+/*------button-----*/
+/*псевдокласи
+hover - наведення курсору
+focus - фокусуванні з миші/клавіатури
+active - кліку*/
+.button {
+    color: var(--color-primary-light);
+    border-radius: 8px;
+    border: 2px solid var(--color-brand-light);
+    background-color: var(--color-brand-light);
+    border-radius: 8px;
+    cursor: pointer; /*при наведені, курсор знінюється на ручку*/
+}
+
+.button:hover {
+    color: var(--color-brand-dark);
+    background-color: transparent; /*transparent - прозорорий фон*/
+}
+
+.link {
+    color: var(--color-primary-light);
+}
+
+.link:hover {
+    color: var(--color-brand-light);
+}
+
+.hero-title {
+    color: var(--color-primary-light);
+}
+
+.hero-title .accent {
+    color: var(--color-brand-light);
+}
+
+.advatages-list {
+    color: var(--color-primary-light);
+    background-color: var(--color-brand-light);
+}
+
+.secton-title .accent{
+    color: var(--color-brand-dark);
+}
